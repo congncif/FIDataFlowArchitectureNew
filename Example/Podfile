@@ -1,0 +1,16 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'FIDataFlowArchitecture_Example', :exclusive => true do
+  pod "FIDataFlowArchitectureNew", :path => "../"
+  pod 'SVProgressHUD', '2.0-beta'
+  pod 'Typhoon', '~> 3.0'
+  pod 'AFNetworking', '~> 2.6'
+  pod 'ISO8601', '~> 0.3'
+end
+
+target 'FIDataFlowArchitecture_Tests', :exclusive => true do
+  pod "FIDataFlowArchitectureNew", :path => "../"
+
+  
+end

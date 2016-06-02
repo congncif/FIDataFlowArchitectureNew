@@ -1,0 +1,6 @@
+framework module Pods_FIDataFlowArchitecture_Tests {
+  umbrella header "Pods-FIDataFlowArchitecture_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,66 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - FIDataFlowArchitectureNew (1.5.1):
+    - JSONModel (~> 1.1)
+    - ReactiveCocoa
+  - ISO8601 (0.5.0)
+  - JSONModel (1.2.0)
+  - ReactiveCocoa (4.0.1):
+    - ReactiveCocoa/UI (= 4.0.1)
+    - Result (~> 1.0.2)
+  - ReactiveCocoa/Core (4.0.1):
+    - ReactiveCocoa/no-arc
+    - Result (~> 1.0.2)
+  - ReactiveCocoa/no-arc (4.0.1):
+    - Result (~> 1.0.2)
+  - ReactiveCocoa/UI (4.0.1):
+    - ReactiveCocoa/Core
+    - Result (~> 1.0.2)
+  - Result (1.0.2)
+  - SVProgressHUD (2.0-beta)
+  - Typhoon (3.4.5):
+    - Typhoon/no-arc (= 3.4.5)
+  - Typhoon/no-arc (3.4.5)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.6)
+  - FIDataFlowArchitectureNew (from `../`)
+  - ISO8601 (~> 0.3)
+  - SVProgressHUD (= 2.0-beta)
+  - Typhoon (~> 3.0)
+
+EXTERNAL SOURCES:
+  FIDataFlowArchitectureNew:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  FIDataFlowArchitectureNew: 19cca6df701582955b4334bb3f3cc84e687d2863
+  ISO8601: 25d7a973fa8daf31a50bbd0401d2e7b98e8a7df3
+  JSONModel: 12523685c4b623553ccf844bbbf7007624317b2c
+  ReactiveCocoa: f7011630aee4deeb16352fcb1b50d6bde9db4f90
+  Result: dd3dd71af3fa2e262f1a999e14fba2c25ec14f16
+  SVProgressHUD: c83337f10ed32d701c423d519059a249973c8662
+  Typhoon: 200100687af3233ec5ed019064df3c9ffe350475
+
+COCOAPODS: 0.39.0

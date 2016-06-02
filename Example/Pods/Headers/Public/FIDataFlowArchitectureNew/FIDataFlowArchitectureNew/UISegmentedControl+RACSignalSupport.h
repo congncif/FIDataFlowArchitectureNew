@@ -1,0 +1,1 @@
+../../../../../../Pod/FIDataFlowArchitectureNew.framework/Versions/A/Headers/UISegmentedControl+RACSignalSupport.h
